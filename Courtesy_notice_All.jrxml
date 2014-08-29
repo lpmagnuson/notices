@@ -226,7 +226,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font fontName="Century Gothic" size="14"/>
+					<font fontName="SansSerif" size="14"/>
 				</textElement>
 				<textFieldExpression class="java.util.Date"><![CDATA[new java.util.Date()]]></textFieldExpression>
 			</textField>
@@ -239,7 +239,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement textAlignment="Right">
-					<font fontName="Century Gothic" size="14"/>
+					<font fontName="SansSerif" size="14"/>
 				</textElement>
 				<textFieldExpression class="java.lang.String"><![CDATA[$F{Patron_Name_C}]]></textFieldExpression>
 			</textField>
@@ -252,7 +252,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Top">
-					<font fontName="Century Gothic" size="14"/>
+					<font fontName="SansSerif" size="14"/>
 				</textElement>
 				<text><![CDATA[This is a reminder from the Oviatt Library that you have borrowed items due soon.
 Please return the items before they are due to avoid late fees.  You may be able to renew your items through your library account at http://suncat.csun.edu/patroninfo or by calling (818) 677-4745. ]]></text>
@@ -266,7 +266,7 @@ Please return the items before they are due to avoid late fees.  You may be able
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Century Gothic" size="24" isBold="false" isUnderline="false" pdfFontName="Helvetica"/>
+					<font fontName="SansSerif" size="24" isBold="false" isUnderline="false" pdfFontName="Helvetica"/>
 				</textElement>
 				<text><![CDATA[Library Courtesy Notice]]></text>
 			</staticText>
@@ -289,7 +289,7 @@ Please return the items before they are due to avoid late fees.  You may be able
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font fontName="Century Gothic" size="14"/>
+					<font fontName="SansSerif" size="14"/>
 				</textElement>
 				<text><![CDATA[TITLE:]]></text>
 			</staticText>
@@ -302,7 +302,7 @@ Please return the items before they are due to avoid late fees.  You may be able
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font fontName="Century Gothic" size="14"/>
+					<font fontName="SansSerif" size="14"/>
 				</textElement>
 				<text><![CDATA[CALL #:]]></text>
 			</staticText>
@@ -315,7 +315,7 @@ Please return the items before they are due to avoid late fees.  You may be able
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font fontName="Century Gothic" size="14"/>
+					<font fontName="SansSerif" size="14"/>
 				</textElement>
 				<textFieldExpression class="java.lang.String"><![CDATA[$F{Item_Call_Number}]]></textFieldExpression>
 			</textField>
@@ -328,7 +328,7 @@ Please return the items before they are due to avoid late fees.  You may be able
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font fontName="Century Gothic" size="14"/>
+					<font fontName="SansSerif" size="14"/>
 				</textElement>
 				<textFieldExpression class="java.lang.String"><![CDATA[$F{Item_Title}]]></textFieldExpression>
 			</textField>
@@ -341,7 +341,7 @@ Please return the items before they are due to avoid late fees.  You may be able
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font fontName="Century Gothic" size="14"/>
+					<font fontName="SansSerif" size="14"/>
 				</textElement>
 				<text><![CDATA[ITEM #]]></text>
 			</staticText>
@@ -354,7 +354,7 @@ Please return the items before they are due to avoid late fees.  You may be able
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font fontName="Century Gothic" size="14"/>
+					<font fontName="SansSerif" size="14"/>
 				</textElement>
 				<textFieldExpression class="java.lang.String"><![CDATA[$F{Item_ID}]]></textFieldExpression>
 			</textField>
@@ -367,7 +367,7 @@ Please return the items before they are due to avoid late fees.  You may be able
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font fontName="Century Gothic" size="14"/>
+					<font fontName="SansSerif" size="14"/>
 				</textElement>
 				<textFieldExpression class="java.lang.String"><![CDATA[$F{Item_Due_Date}]]></textFieldExpression>
 			</textField>
@@ -403,7 +403,7 @@ Please return the items before they are due to avoid late fees.  You may be able
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement>
-					<font fontName="Century Gothic" size="14" isUnderline="true"/>
+					<font fontName="SansSerif" size="14" isUnderline="true"/>
 				</textElement>
 				<textFieldExpression class="java.lang.String"><![CDATA[("http://library.csun.edu/Services/LibraryFines.")]]></textFieldExpression>
 				<hyperlinkReferenceExpression><![CDATA["http://library.csun.edu/Services/LibraryFines"]]></hyperlinkReferenceExpression>
@@ -417,7 +417,7 @@ Please return the items before they are due to avoid late fees.  You may be able
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Bottom">
-					<font fontName="Century Gothic" size="14"/>
+					<font fontName="SansSerif" size="14"/>
 				</textElement>
 				<text><![CDATA[For additional information about borrowing items from the Oviatt Library, please visit:]]></text>
 			</staticText>
